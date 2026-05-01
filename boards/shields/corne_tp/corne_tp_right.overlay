@@ -115,7 +115,7 @@
 //
 // We don't define the SCL pin, because UART uses a baud rate instead of
 // a clock pin.
-#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 0, 9)>
+#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 0, 10)>
 
 // Configure UART BAUD Rate
 //
@@ -171,7 +171,7 @@
 //   - 14400 ( 69 us cycle length   /   14.5kHz)
 //   -  9600 (100 us cycle length   /   10.0kHz)
 //   - 19200 ( 52 us cycle length   /   19kHz)
-#define MOUSE_PS2_UART_BAUD_RATE <14400>
+#define MOUSE_PS2_UART_BAUD_RATE <9600>
 
 
 /*
